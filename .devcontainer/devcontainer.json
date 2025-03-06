@@ -1,0 +1,13 @@
+{
+  "name": "Python 2.5 Environment",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python"]
+    }
+  },
+  "postCreateCommand": "./install_python2.5.sh",
+  "remoteUser": "vscode"
+}
